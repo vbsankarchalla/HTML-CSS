@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>16</title>
+  <style>
+    .d-div{
+      margin: 50px;
+      display: flex;
+      border-radius: 25px;
+      box-shadow: 0px 0px 6px rgba(0,0,0, 0.6);
+    } 
+    .cat-image{
+      width: 50px;
+      height: 50px;
+      border-radius: 30px;
+      cursor: pointer;
+      position: relative;
+    }
+    .d-div .tooltip{
+      visibility: hidden;
+      opacity: 0;
+    }
+    .d-div:hover .tooltip{
+      visibility: visible;
+      opacity: 1;
+      
+    }
+  
+  </style>
+</head>
+<body>
+  <div class="d-div">
+    <img class="cat-image" src="../../images/cat-551554_1280.jpg">
+    <div class="tooltip">
+      <img class="cat-image" src="../../images/cat-551554_1280.jpg">
+    </div>
+  </div>
+
+
+  <!-- <div>
+    <img class="cat-image" src="../../images/cat-551554_1280.jpg">
+  </div> -->
+</body>
+</html>

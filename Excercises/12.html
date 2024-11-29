@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>12 Exercise</title>
+  <style>
+    .a-div{
+      display: flex;
+    }
+    .a-200px{
+      background-color: skyblue;
+      width: 200px;
+    }
+    .a-75px{
+      background-color: pink;
+      width: 75px;
+    }
+
+    .b-div{
+      display: flex;
+      margin : 10px;
+    }
+    .b-item1{
+      background-color: pink;
+      width: 50px;
+    }
+    .b-item2{
+      background-color: skyblue;
+      flex: 1;
+    }
+    .b-item3{
+      background-color: pink;
+      width: 75px;
+    }
+    
+
+    .c-div{
+      display: flex;
+      margin : 10px;
+      justify-content:space-between;
+    }
+    .c-item1{
+      background-color:lightblue;
+    }
+    .c-item2{
+      background-color: pink;
+    }
+    .c-item3{
+      background-color: lightblue;
+    }
+    .c-item4{
+      background-color: pink;
+    }
+
+
+    .d-div{
+      border: 1px;
+      border-color: gray;
+      border-style: solid;
+      display: flex;
+      height: 50px;
+      justify-content: space-between;
+    }
+    .d-item1{
+      background-color: pink;
+    }
+    .d-item2{
+      background-color: lightblue;
+    }
+
+
+    .e-div{
+      margin: 20px;
+      border: 1px;
+      border-style: solid;
+      border-color: lightgray;
+      height: 150px;
+      box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      height: 100px;
+      width: 350px;
+      border-radius: 6px;
+      padding: 15px;
+    }
+    .e-div1{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+    }
+    .e-headers{
+      width: 125px;
+      display: inline-block;
+      font-family: roboto;
+      font-weight: 400;
+    }
+    .e-count{
+      width: 15px;
+      display: inline-block;
+      font-family: roboto;
+      font-weight: bold;
+      background-color: rgb(59, 128, 255);
+      color: white;
+      text-align: center;
+      padding-left: 8px;
+      padding-right: 8px;
+      padding-top: 3px;
+      padding-bottom: 3px;
+      border-radius: 18px;
+    }
+    .f-div{
+      font-family: roboto;
+    }
+    .f-header{
+      display: flex;
+      background-color: rgb(120, 82, 178);
+
+      justify-content: space-between;
+      padding-left: 15px;
+      padding-right: 15px;
+      align-items: center;
+    }
+    .f-home{
+      color: white;
+      font-weight: bold;
+      
+    }
+    .f-search-box{
+      width: 500px;
+      height: 20px;
+      border: none;
+      margin-top: 12px;
+      margin-bottom: 12px;
+      height: 30px;
+      border-radius: 15px;
+      padding-left: 20px;
+    }
+    .f-button{
+      background-color: rgb(120, 82, 178);
+      border-color: white;
+      border-width: 1px;
+      border-style: solid;
+      border-radius: 2px;
+      color: white;
+      font-size: 16px;
+      padding-left: 15px;
+      padding-top: 8px;
+      padding-bottom: 8px;
+      padding-right: 15px;
+    }
+    .g-div{
+      margin: 30px;
+      display: flex;
+      flex-direction: column;
+      width: 425px;
+      border: 1px;
+      box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.2);
+      align-items: center;
+      padding:10px;
+    }
+    .g-profile{
+      padding-top: 10px;
+      display: flex;
+      flex-direction: row;
+      width: 400px;
+      justify-content: space-between;
+    }
+    .g-dp{
+      width: 60px;
+      border-radius: 50px;
+    }
+    .details-grid{
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      padding-left: 15px;
+    }
+    .g-button{
+      border: none;
+      padding-left: 12px;
+      padding-top: 8px;
+      padding-right: 12px;
+      padding-bottom: 8px;
+      font-size: medium;
+      font-weight: bold;
+      background-color: rgb(29, 155, 240);
+      color: white;
+      border-radius: 4px;
+    }
+  </style>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!--  12a -->
+  <div class="a-div">
+    <p class="a-200px">200px</p>
+    <p  class="a-75px">75px</p>
+  </div>
+  <!--  12b -->
+  <div class="b-div">
+    <p class="b-item1">Item1</p>
+    <p class="b-item2">Item2</p>
+    <p class="b-item3">Item3</p>
+  </div>
+  <!--  12c -->
+  <div class="c-div">
+    <p class="c-item1">Item1</p>
+    <p class="c-item2">Item2</p>
+    <p class="c-item3">Item3</p>
+    <p class="c-item4">Item4</p>
+  </div>
+  <!--  12d -->
+  <div class="d-div">
+    <p class="d-item1">Item1</p>
+    <p class="d-item2">Item2</p>
+  </div>
+  <!--  12e -->
+    <div class="e-div">
+      <div class="e-div1">
+        <span class="e-headers">Home</span><span class="e-count">14</span>
+      </div>
+        <div class="e-div1">
+          <span class="e-headers">Notifications</span><span class="e-count">3</span>
+        </div>
+        <div class="e-div1">
+          <span class="e-headers">Messages</span><span class="e-count">5</span>
+        </div>
+    </div>
+  <!--  12f -->
+    <div class="f-div">
+      <div class="f-header">
+        <span class="f-home">Home</span>
+        <input class="f-search-box" type="text" placeholder="Search">
+        <button class="f-button">Download</button>
+      </div>
+    </div>
+  <!--  12g -->
+    <div class="g-div">
+      <div class="g-profile">
+        <div>
+          <img class="g-dp" src="../images/cat-551554_1280.jpg">
+        </div>
+        <div class="details-grid"> 
+          <span style="font-family: roboto; font-weight: 700;">oliver</span>
+          <span style="font-family: roboto; color: gray;">the cat</span>
+          <span style="font-family: roboto; color: gray;">Popular</span>
+        </div>
+        <div id="'follow">
+          <button class="g-button">Follow</button>
+        </div>
+      </div>
+
+      <div class="g-profile">
+        <div>
+          <img class="g-dp" src="../images/cat-551554_1280.jpg">
+        </div>
+        <div class="details-grid"> 
+          <span style="font-family: roboto; font-weight: 700;">Mimi</span>
+          <span style="font-family: roboto; color: gray;">Sleepy cat</span>
+          <span style="font-family: roboto; color: gray;">Popular</span>
+        </div>
+        <div id="'follow">
+          <button class="g-button">Follow</button>
+        </div>
+      </div>
+
+      <div class="g-profile">
+        <div>
+          <img class="g-dp" src="../images/cat-551554_1280.jpg">
+        </div>
+        <div class="details-grid"> 
+          <span style="font-family: roboto; font-weight: 700;">Rex</span>
+          <span style="font-family: roboto; color: gray;">Happy Bulldog</span>
+          <span style="font-family: roboto; color: gray;">Popular</span>
+        </div>
+        <div id="'follow">
+          <button class="g-button">Follow</button>
+        </div>
+      </div>
+    </div>
+
+</body>
+</html>

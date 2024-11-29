@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>11 Exercise</title>
+    <style>
+        .a-div{
+            display: grid;
+            grid-template-columns: 200px 75px;
+        }
+        .a-div-p1{
+            background-color: cornflowerblue;
+        }
+        .a-div-p2{
+            background-color: hotpink;
+        }
+
+        .b-div{
+            display: grid;
+            grid-template-columns: 50px 1fr 75px;
+        }
+        .b-col1,
+        .b-col3{
+            background-color: hotpink;
+        }
+        .b-col2{
+            background-color: cornflowerblue;   
+        }
+        .c-div{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            column-gap: 20px;
+            row-gap: 10px;
+            box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.2);
+        }
+        .c-col1,
+        .c-col3{
+            background-color: hotpink;
+        }
+        .c-col2,
+        .c-col4{
+            background-color: cornflowerblue;   
+        }
+        .d-div{
+            display:grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            width: 100%;
+            column-gap: 20px;
+            row-gap: 10px;
+            box-shadow: 0px 0px 6px rgba(0,0,0,0.4);
+            align-items: center;
+            margin: 30px;
+            padding: 20px;
+        }
+        .profilepic{
+            width: 100%;
+        }
+        .f-name{
+            font-family: sans-serif;
+            font-weight: bold;
+            font-size: large;
+            display:block;
+            margin-top: 10px;
+        }
+        .frds-list{
+            display:block;
+            color: rgb(107, 105, 105);
+            font-family:sans-serif;
+        }
+        .Add-button{
+            background-color: rgb(65, 125, 255);
+            color: white;
+            border: none;
+            font-family: sans-serif;
+            padding-left: 12px;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            padding-right: 12px;
+            border-radius: 3px;
+        }
+    </style>
+</head>
+<body>
+    <!--    11a -->
+    <div class="a-div">
+        <p class="a-div-p1">200px</p><p class="a-div-p2">75px</p>
+    </div>
+    <!--    11b -->
+    <div class="b-div">
+        <p class="b-col1">col1</p>
+        <p class="b-col2">col2</p>
+        <p class="b-col3">col3</p>
+    </div>
+    <!--    11c -->
+    <div class="c-div">
+        <p class="c-col1">col1</p>
+        <p class="c-col2">col2</p>
+        <p class="c-col3">col3</p>
+        <p class="c-col4">col4</p>
+        <p class="c-col2">col2</p>
+        <p class="c-col1">col1</p>
+        <p class="c-col4">col4</p>
+        <p class="c-col3">col3</p>
+    </div>
+    <!--    11d -->
+    <div class="d-div">
+        <div class="d-details-card">
+            <img class="profilepic" src="../images/cat-551554_1280.jpg" alt="">
+            <span class="f-name">Oliver</span>
+            <span class="frds-list">2 mutual friends</span>
+            <button class="Add-button">Add Friend</button>
+        </div>
+        <div class="d-details-card">
+            <img class="profilepic" src="../images/cat-551554_1280.jpg" alt="">
+            <span class="f-name">Mimi</span>
+            <span class="frds-list">2 mutual friends</span>
+            <button class="Add-button">Add Friend</button>
+        </div>
+        <div class="d-details-card">
+            <img class="profilepic" src="../images/cat-551554_1280.jpg" alt="">
+            <span class="f-name">Rex</span>
+            <span class="frds-list">2 mutual friends</span>
+            <button class="Add-button">Add Friend</button>
+        </div>
+    </div>
+</body>
+</html>

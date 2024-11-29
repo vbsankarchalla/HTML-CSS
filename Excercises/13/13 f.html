@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>13 f,g</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <style>
+        .container{
+            margin:30px;
+            padding: 15px;
+            width: 420px;
+            display: flex;
+            flex-direction: column;
+            box-shadow: 0px 0px 5px rgba(0,0,0,0.2);
+        }
+        .dp{
+            width: 60px;
+            border-radius: 30px;
+            margin-right: 10px;
+        }
+        .mailId{
+            font-family: roboto;
+            font-weight: bold;
+        }
+        .username{
+            font-family: roboto;
+            color: gray;
+            margin-left: 5px;
+        }
+        .header{
+            display: flex;
+            flex-direction:row;
+            margin-bottom: 5px;
+        }
+        .desc{
+            font-family: roboto;
+            width: 350px;
+            margin-bottom: 5px;
+            font-weight: 450;
+        }
+        .flex{
+            background-color: lightgray;
+            height: 80px;
+            width: 350px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            border-radius: 10px;
+            border: 1px;
+            border-style: solid;
+            border-color: lightgray;
+        }
+        .grayarea{
+            width:100px;
+        }
+        .whitearea{
+            width:22px;
+            background-color: white;
+            border-radius: 10px;
+            margin-left: -10px;
+        }
+        .whitebox{
+            flex: 1;
+            background-color: white;
+            padding: 10px;
+        }
+        .youtubelink{
+            color: gray;
+            font-family: roboto;
+            font-weight: 400;
+        }
+        .title{
+            width: 200px;
+            padding-bottom: 15px;
+            font-size: 14px;
+            font-family: roboto;
+            font-weight:450;
+            margin-top: 5px;
+        }
+        .abovesection{
+            width: 400px;
+            display: flex;
+            flex-direction: row;
+            margin-bottom: 10px;
+        }
+        .belowsection{
+            display: flex;
+            justify-content: right;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="abovesection">
+            <img class="dp" src="../../images/cat-551554_1280.jpg">
+        <div>
+            <div class="header">
+                <div class="mailId">
+                    supersimple.dev
+                </div>
+                <div class="username">
+                    @SuperSimpleDev
+                </div>
+            </div>
+            <div class="desc">
+                What is backend web development? A complete overview. New video is up!
+            </div>
+        </div>
+        </div>
+        
+        <div class="belowsection">
+            <div class="flex">
+                <div class="grayarea"></div>
+                <div class="whitebox">
+                    <div class="youtubelink">
+                        youtube.com
+                    </div>
+                    <div class="title">
+                        Backend web development - a complete overview (2021)
+                    </div>
+                </div>
+                <div class="whitearea"></div>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
